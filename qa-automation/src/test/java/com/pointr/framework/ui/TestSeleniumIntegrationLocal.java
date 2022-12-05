@@ -10,7 +10,7 @@ public class TestSeleniumIntegrationLocal {
 
 	static String OK = "200";
 	static String KO = "KO";
-	static String driverURL="chromedriver_mac";
+	static String driverURL="chromedriver_linux";
 
 	
 	@Test
