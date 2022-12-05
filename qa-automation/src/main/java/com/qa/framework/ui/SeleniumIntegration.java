@@ -28,9 +28,9 @@ public class SeleniumIntegration {
 
 	}
 
-	public static String loadURL() {
+	public static String loadURL(String driverURL) {
 		// Creating an object of ChromeDriver
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver_mac");
+		System.setProperty("webdriver.chrome.driver", driverURL);
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);
