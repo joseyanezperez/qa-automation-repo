@@ -42,7 +42,6 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v3
       with:
-        name: mostRepeatedWord
-        run: pwd
+        name: mostRepeatedWordChrome
         path: /home/runner/work/qa-automation-repo/qa-automation-repo/qa-automation/mostRepeatedWord.txt
         retention-days: 30
