@@ -10,8 +10,8 @@ public class TestSeleniumIntegrationGithub {
 
 	static String OK = "OK";
 	static String KO = "KO";
-	static String driverURLChrome="chromedriver_mac";
-	static String driverURLFirefox="geckodriver-mac";
+	static String driverURLChrome="chromedriver_linux";
+	static String driverURLFirefox="geckodriver-linux";
 	static String propertyChrome="webdriver.chrome.driver";
 	static String propertyFirefox="webdriver.gecko.driver";
 	static String chrome="chrome";
