@@ -1,0 +1,5 @@
+THE = 56
+AND = 53
+TO = 39
+LOCATION = 39
+OF = 32
