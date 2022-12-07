@@ -44,5 +44,5 @@ jobs:
       with:
         name: mostRepeatedWord
         run: pwd
-        path: mostRepeatedWord.txt
+        path: /home/runner/work/qa-automation-repo/qa-automation-repo/qa-automation/mostRepeatedWord.txt
         retention-days: 30
