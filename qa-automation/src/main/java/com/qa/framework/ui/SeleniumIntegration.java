@@ -134,7 +134,7 @@ public class SeleniumIntegration {
 			// Sort the list
 			wordCounterMap = (HashMap<String, Integer>) sortByValue(wordCounterMap, false);
 			// Store the result on file
-			createResultFile("mosRepeatedWord.txt");
+			createResultFile("mostRepeatedWord.txt");
 
 		} catch (Exception e) {
 			System.out.println("Issue on loadURL " + e.getMessage());
