@@ -8,7 +8,7 @@ Output file: mostRepeatedWord.txt
 
 Github Actions:
 
--Java CI With Maven: execution with Chromedriver
+-Java CI With Maven Chrome: execution with Chromedriver
   ->Attached mostRepeatedWord.txt as artifact on the Github action execution folder mostRepeatedWordChrome
 
 -Java CI With Maven Fiferox: execution with Firefoxdriver
