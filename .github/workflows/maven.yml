@@ -42,6 +42,6 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v3
       with:
-        name: mostUsedWordChrome
-        path: mostUsedWordChrome.txt
+        name: mostRepeatedWord
+        path: mostRepeatedWord.txt
         retention-days: 30
